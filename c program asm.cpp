@@ -23,7 +23,7 @@ typedef struct {
 } Course;
 
 typedef struct {
-    char studentID[MAX_ID];
+    int userID;
     char name[MAX_NAME];
     int numCoursesEnrolled;
     char coursesEnrolled[MAX_COURSES][MAX_COURSE_NAME];
